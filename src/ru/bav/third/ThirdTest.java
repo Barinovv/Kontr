@@ -1,8 +1,8 @@
-package ru.bav.two;
+package ru.bav.third;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TwoTest {
+class ThirdTest {
 
     @org.junit.jupiter.api.Test
     void moving() {

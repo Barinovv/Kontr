@@ -1,8 +1,8 @@
-package ru.bav.three;
+package ru.bav.fifth;
 
 import java.util.Scanner;
 
-public class Three {
+public class fifth {
 
     /**
      * Нахождение ближайшего лифта

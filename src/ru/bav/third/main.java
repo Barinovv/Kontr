@@ -1,9 +1,9 @@
-package ru.bav.two;
+package ru.bav.third;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-import static ru.bav.two.Two.*;
+import static ru.bav.third.Third.*;
 
 public class main {
     public static void main(String[] args) throws IOException {
