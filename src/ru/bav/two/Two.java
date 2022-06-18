@@ -1,24 +1,13 @@
+package ru.bav.two;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.stream.Stream;
 
 public class Two {
     private static final String IN_FILE_TXT = "src\\inFile.txt";
-
-    public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Введите размер окна");
-        int window = sc.nextInt();
-        String st = reader();
-        Double[] array = arr(st, window);
-        double mov = moving(window, array);
-        double media = median(array);
-        System.out.println("Простое скользящее среднее:" + mov);
-        System.out.println("Медианный фильтр:" + media);
-    }
 
     //считает среднее
     public static Double moving(int window, Double[] arr){
